@@ -40,12 +40,12 @@ def save_file():
     )
     if file_path:
         with open(file_path,"w")as file:
-            file.write(text.get("1.0", "tk.END"))
+            file.write(text.get("1.0", tk.END))
         messagebox.showinfo("Save File", "File saved successfully!")
 
 #function 4 : To exit the application
 def exit_app():
-    if text.get("1.0", "tk.END").strip():
+    if text.get("1.0", tk.END).strip():
         if messagebox.askyesno("Save Changes", "Do you want to save changes?"):
             save_file()
     root.destroy()
