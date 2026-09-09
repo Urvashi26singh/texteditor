@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import tkinter as tk
 from tkinter import messagebox, filedialog
 root = tk.Tk()
@@ -63,11 +62,9 @@ file_menu.add_command(label="Save", command=save_file)
 file_menu.add_separator()
 file_menu.add_command(label="Exit", command=exit_app)
 
-=======
 import tkinter as tk
 from tkinter import messagebox, filedialog
 root = tk.Tk()
 root.title("Simple Text Editor")
 root.geomtry("800x600")
->>>>>>> 1d1beb95f63b4feb3b910ef6b0f4b7fd67260e1e
 root.mainloop()
